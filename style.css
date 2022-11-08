@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+
+*{
+ padding:0;
+ margin:0;
+}
+
+body{
+  background-color:#FFFFFF;
+ 
+}
+
+.wrap{
+	width:100%;
+}
+
+
+#header{
+	width:100%;
+	padding:80px;
+	background-image:url('img/food-2.jpg');
+	display:inline-block;
+	background-repeat: no-repeat;
+	background-size: 2000px;
+}
+
+#header h2{
+	margin-left: 135px;
+	padding-top: -7px;
+	padding:20px opx;
+	font-weight:bold;
+	float:left;
+	color:##001a33;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 37px;
+}
+
+#header p{
+	padding-left:62%;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin-left: -718px;
+	padding-top: 43px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 63px;
+	
+}
+
+.nav{
+	width:100%;
+	height:3%;
+	background-color:#99ccff;
+	overflow:hidden;
+	padding:20px 0px;
+	text-decoration:none;
+	padding-left:200px;
+	margin-top:0px;
+	
+	
+}
+
+.nav a{
+	
+	font-weight:bold;
+	font-family: 'Noto Sans', sans-serif;
+	font-size:17px;
+	color:#003366;
+	padding:0px 20px;
+	text-decoration:none;
+	border-right:2px solid#FFFFFF;
+	float:left;
+}
+
+.nav a:hover{
+	background-color:#339933;
+	color:#FFFFFF;
+}
+
+.nav a.active{
+	background-color:#003366;
+	color:#FFFFFF;
+	padding:0px;
+}
+
+.nav.icon{
+	display:none;
+	
+}
+
+/*================Home Page========*/
+/*------Slider--------------*/
+.bb-slider{
+	color:#ffffff;
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+}
+
+.slider_bg{
+	width:100%;
+	overflow:hidden;
+}
+
+#slider{
+	width:100%;
+}
+
+/*--------------*/
+
+
+#article_purity{
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	padding-top: 160px;
+	overflow:hidden;
+	margin-bottom:50px;
+}
+
+#article_purity h5{
+	width:100%;
+	line-height: 30px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size:22px;
+	color:#000000;
+	font-weight:bold;
+	text-align:center;
+	padding-top:20px;
+	
+}
+
+#article_purity h2{
+	width:100%;
+	line-height:45px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size:52px;
+	color:#001a33;
+	font-weight:bold;
+	text-align:center;
+	padding-top:20px;
+	
+}
+
+#article_purity p{
+	width:75%;
+	font-family: 'Noto Sans', sans-serif;
+	font-size:14px;
+	color:#000000;
+	font-weight:bold;
+	text-align:center;
+	padding-top:20px;
+	margin-left: 160px;
+}
+
+#home_gallery{
+	width:100%;
+	height:auto;
+	margin-left:12px;
+	margin-bottom: 50px;
+	float:left;
+	border:1px solid#EAEAEA;
+	overflow:hidden;
+	
+}
+
+
+#home_gallery_image:hover{
+	border:2px solid##f0f5f5;
+}
+
+#home_gallery img{
+	width:400px;
+	height:400px;
+	float:left;
+	display:block;
+	padding-top:50px;
+	margin-left:20px;
+	overflow:hidden;
+}
+ 
+.testimonial_article_bg{
+	width:100%;
+	margin-top:20px;
+
+
+}
+
+#testimonial_article  h2{
+	color:#000000;
+	font-size:40px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight:bold;
+	text-align:center;
+	font-style:italic;
+	padding-top: 48%;
+	padding-bottom: 210px;
+	
+}
+
+.home_parallax{
+	background-image:url('img/food-12.jpg');
+	min-height:500px;
+	margin-bottom:100px;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin-top:30%;
+	text-align:center;
+	font-size:50px;
+	padding-top:30%;
+	font-style:italic;
+}
+
+
+
+#testimonial_article p q {
+	width:50%;
+	margin-left:20px;
+	padding-top:50px;
+	text-align:center;
+	font-family: 'Noto Sans', sans-serif;
+	font-size:18px;
+	color:#000000;
+	font-style:italic;
+	
+	
+}
+
+#testimonial_article{
+	width:100%;
+	height:auto;
+	float:left;
+}
+
+#testimonial_article img{
+	width:400px;
+	height:400px;
+	float:left;
+	padding-left:25px;
+	margin:0 auto;
+}
+
